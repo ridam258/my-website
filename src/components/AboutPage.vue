@@ -11,8 +11,8 @@
                 <br><br> A few of my strengths are creative concept and strategy development, art direction, creative direction, UI/UX design, front-end development, typography, and bridging communication between developers and designers.
                 <br><br> I find inspiration in nature, architecture, vintage fashion, indie electronica, science fiction and good lattes. When I’m not working, you can find me at a local coffee house, exploring indie art fairs, kickboxing, or even enjoying an old-fashioned cocktail.</h5>
             <div class="footer">
-                <h1 class="my-5 text-center">My Experiences</h1>
-                <div class="d-flex justify-content-between">
+                <h1 class="text-center">My Experiences</h1>
+                <div class="experienceflex d-flex justify-content-between">
                     <div class="experience">
                         <h3>
                             <span>Brandvalley Technologies Pvt. Ltd.</span>
@@ -34,7 +34,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between experienceflex">
                     <div class="experience">
                         <h3>
                             <span>Prayas - An sports event</span>
@@ -57,9 +57,9 @@
                     </div>
                 </div>
             </div>
-            <h1 class="my-5">My Skills</h1>
             <div class="skills">
-                <div class="d-flex justify-content-between mb-5" style="flex-wrap:wrap">
+                <h1>My Skills</h1>
+                <div class="d-flex justify-content-between mb-5 experienceflex" >
                     <div>
                         <div class="circle-wrap">
                             <div class="circle">
@@ -71,7 +71,7 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/html.png" alt="">  
-                                    <p>98%</p>  
+                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/css.png" alt="">  
-                                    <p>98%</p>  
+                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/js.png" alt="">  
-                                    <p>98%</p>  
+                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/vue.png" alt="">  
-                                    <p>98%</p>  
+                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/node.png" alt="">  
-                                    <p>90%</p>  
+                                    <p>90</p>  
                                  </div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between mt-5" style="flex-wrap:wrap">
+                <div class="d-flex justify-content-between mt-5 experienceflex">
                     <div>
                         <div class="circle-wrap">
                             <div class="circle">
@@ -174,7 +174,7 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/cpp.png" alt="">  
-                                    <p>90%</p>  
+                                    <p>90</p>  
                                  </div>
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/java.png" alt="">  
-                                    <p>80%</p>  
+                                    <p>80</p>  
                                  </div>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/sql.png" alt="">  
-                                    <p>85%</p>  
+                                    <p>85</p>  
                                  </div>
                             </div>
                         </div>
@@ -235,7 +235,7 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/git.png" alt="">  
-                                    <p>98%</p>  
+                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -255,7 +255,7 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/boot.png" alt="">  
-                                    <p>98%</p>  
+                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -346,7 +346,9 @@ export default {
     .footer{
         text-align: left;
     }
-    
+    .footer h1{
+        margin: 5rem 0;
+    }
     .footer span::after{
          
     content: "";
@@ -381,8 +383,11 @@ export default {
         position: relative;
         /* height: 50vh; */
     }
+    .skills h1{
+        margin: 5rem 0;
+    }
     .circle-wrap {
-  /* margin: 150px auto; */
+  margin: 0px auto;
   width: 150px;
   height: 150px;
   background: #fefcff;
@@ -426,6 +431,9 @@ export default {
   clip: rect(0px, 75px, 150px, 0px);
   background-color: #988345;
 }
+.skills img{
+    width: 48px;
+}
 
 /* .mask.full,
 .circle .eightyhalf {
@@ -438,6 +446,7 @@ export default {
   animation-name: eighty;
   transform: rotate(144deg);
 }
+
 @keyframes eighty{
   0% {
     transform: rotate(0deg);
@@ -504,5 +513,48 @@ export default {
     transform: rotate(153deg);
   }
 }
-
+@media screen and (max-width: 768px) {
+    .main-content{
+        padding: 2rem 5rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main-content{
+        padding: 2rem;
+    }
+    .image img{
+        width: 120px;
+        border: 0px;
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+    .image{
+        padding-top: 10rem;
+    }
+    .main-content h1{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .main-content h5{
+        line-height: 1.3rem;
+        font-size: 16px;
+    }
+    .footer h1{
+        margin: 2rem 0;
+    }
+    .experience h3{
+        /* margin: 1rem 0;
+        font-weight: 600;
+        font-size: 1.5rem; */
+    }
+    .experienceflex{
+        flex-direction: column;
+    }
+    .experience{
+        width: 95%;
+    }
+    .skills h1{
+        margin: 2rem 0;
+    }
+}
 </style>
