@@ -4,7 +4,7 @@
                 <h4 class="m-0" :class="{'white':routeInfo,'black':!routeInfo}">Ridam <span style="padding:0;color:#988345">Jain</span></h4>
                 <div class="menu">
                     <span class="d-none d-sm-block" :class="{'white':routeInfo,'black':!routeInfo}" style="font-size:20px;cursor:pointer" @click="openNav()">Menu &#9776;</span>
-                    <span class="d-block d-sm-none " style="font-size:20px;cursor:pointer" @click="openNav()">&#9776;</span>
+                    <span class="d-block d-sm-none " :class="{'white':routeInfo,'black':!routeInfo}" style="font-size:20px;cursor:pointer" @click="openNav()">&#9776;</span>
                     <div id="mySidenav" class="sidenav d-flex flex-column justify-content-between" :class="{'maxWidth':flag==true,'minWidth':!flag}">
                         <div class="d-flex align-items-center justify-content-between close">
                             <h4 class="m-0 p-0" style="color:white">Ridam <span style="padding:0;color:#988345">Jain</span></h4>
@@ -165,6 +165,9 @@ font-family: 'Roboto Slab', serif;
   }
   .centerlogo{
       width: 80px;
+  }
+  .sidenav a {
+      font-size: 32px;
   }
   
 }

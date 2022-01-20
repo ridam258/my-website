@@ -7,9 +7,9 @@
         <div class="main-content">
             <h1>HEY THERE, I'M RIDAM - A DEVELOPER WHO LOVES PROGRAMMING.</h1>
             <img src="../assets/yellowMinus.png" alt="">
-            <h5>As an art director, designer and front-end developer, I have been building interactive experiences, creating brands and designing print materials for over eight years. I’m a fan of structure and simplicity in both design and code; organization and consistency are very important to me.
-                <br><br> A few of my strengths are creative concept and strategy development, art direction, creative direction, UI/UX design, front-end development, typography, and bridging communication between developers and designers.
-                <br><br> I find inspiration in nature, architecture, vintage fashion, indie electronica, science fiction and good lattes. When I’m not working, you can find me at a local coffee house, exploring indie art fairs, kickboxing, or even enjoying an old-fashioned cocktail.</h5>
+            <h5>Here is a special greeting for all the delightful viewers from me, Ridam Jain. I am a fledgling web developer who loves to design and make stunning websites. Having a handful of experience in working with Vue.js, I have bunched up my skillset which includes backend developing technologies as well.
+                <br><br> Along with that, I have enhanced my active knowledge of SQL, Cpp, and Java. With this all said, I am a vibrant coder who adores spending time in CPP. 
+                <br><br> Without missing any opportunity, I have managed many events as a lead. I always wish to have a platform where I can showcase my skills, give my 100%, and learn every day! Last but not least, a cup of tea is always welcome!</h5>
             <div class="footer">
                 <h1 class="text-center">My Experiences</h1>
                 <div class="experienceflex d-flex justify-content-between">
@@ -71,7 +71,6 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/html.png" alt="">  
-                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -92,7 +91,6 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/css.png" alt="">  
-                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -112,7 +110,6 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/js.png" alt="">  
-                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -132,7 +129,6 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/vue.png" alt="">  
-                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -152,7 +148,6 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/node.png" alt="">  
-                                    <p>90</p>  
                                  </div>
                             </div>
                         </div>
@@ -174,7 +169,6 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/cpp.png" alt="">  
-                                    <p>90</p>  
                                  </div>
                             </div>
                         </div>
@@ -195,7 +189,6 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/java.png" alt="">  
-                                    <p>80</p>  
                                  </div>
                             </div>
                         </div>
@@ -215,7 +208,6 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/sql.png" alt="">  
-                                    <p>85</p>  
                                  </div>
                             </div>
                         </div>
@@ -228,19 +220,18 @@
                         <div class="circle-wrap">
                             <div class="circle">
                                 <div class="mask full">
-                                    <div :class="{'fill nineeight':skills}"></div>
+                                    <div :class="{'fill ninety':skills}"></div>
                                 </div>
                                 <div class="mask half">
                                     <div :class="{'fill left':skills}"></div>
                                 </div>
                                 <div class="inside-circle"> 
-                                    <img src="../assets/git.png" alt="">  
-                                    <p>98</p>  
+                                    <img src="../assets/firebase.png" alt="">  
                                  </div>
                             </div>
                         </div>
                         <div>
-                            <h3 class="my-2">Github</h3>
+                            <h3 class="my-2">Firebase</h3>
                             <p></p>
                         </div>
                     </div>
@@ -255,7 +246,6 @@
                                 </div>
                                 <div class="inside-circle"> 
                                     <img src="../assets/boot.png" alt="">  
-                                    <p>98</p>  
                                  </div>
                             </div>
                         </div>
@@ -269,7 +259,10 @@
             </div>
 
         </div>
-        
+        <div class="last d-flex justify-content-between" style="background-color:#988345;color:black">
+            <h5>© 2022 Ridam Jain.</h5>
+            <h5>Want to connect? Ping me <a style="color:black" href="">here!</a></h5>
+        </div>
     </div>
 </template>
 <script>
@@ -341,6 +334,7 @@ export default {
         font-weight: 700;
     }
     .main-content h5{
+        text-align: left;
         line-height: 2rem;
     }
     .footer{
@@ -412,7 +406,7 @@ export default {
   height: 122px;
   border-radius: 50%;
   background: #f5edd7;
-  /* line-height: 60px; */
+  /* line-height: 120px; */
   text-align: center;
   margin-top: 14px;
   margin-left: 14px;
@@ -421,7 +415,7 @@ export default {
   z-index: 100;
   font-weight: 700;
   font-size: 1.7em;
-  padding-top: 15px;
+  padding-top: 31px;
 }
 
 /* color animation */
@@ -432,7 +426,7 @@ export default {
   background-color: #988345;
 }
 .skills img{
-    width: 48px;
+    width: 60px;
 }
 
 /* .mask.full,
@@ -472,7 +466,7 @@ export default {
 .mask.full,
 .circle .nineeight {
   animation: fill ease-in-out 2s;
-  transform: rotate(176deg);
+  transform: rotate(178deg);
 }
 
 @keyframes fill{
@@ -480,7 +474,7 @@ export default {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(176deg);
+    transform: rotate(178deg);
   }
 }
 .mask.full,
@@ -513,12 +507,19 @@ export default {
     transform: rotate(153deg);
   }
 }
+.last{
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+}
 @media screen and (max-width: 768px) {
     .main-content{
         padding: 2rem 5rem;
     }
 }
 @media screen and (max-width: 500px) {
+    .image{
+        padding-top: 6rem;
+    }
     .main-content{
         padding: 2rem;
     }
@@ -529,7 +530,7 @@ export default {
         margin: 0 auto;
     }
     .image{
-        padding-top: 10rem;
+        /* padding-top: 10rem; */
     }
     .main-content h1{
         font-size: 24px;
@@ -555,6 +556,13 @@ export default {
     }
     .skills h1{
         margin: 2rem 0;
+    }
+    .last{
+        padding: 1rem;
+        /* font-size: 6px; */
+    }
+    .last h5{
+        font-size: 12px;
     }
 }
 </style>
