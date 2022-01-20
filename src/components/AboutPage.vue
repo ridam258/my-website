@@ -1,5 +1,5 @@
 <template>
-    <the-header :routeInfo="false" :active="2" class="header"></the-header>
+    <the-header :routeInfo="false" class="header"></the-header>
     <div class="head">
         <div class="image d-flex justify-content-center">
             <img src="../assets/ridam3.jpg" alt="">
@@ -261,7 +261,7 @@
         </div>
         <div class="last d-flex justify-content-between" style="background-color:#988345;color:black">
             <h5>© 2022 Ridam Jain.</h5>
-            <h5>Want to connect? Ping me <a style="color:black" href="">here!</a></h5>
+            <h5>Want to connect? Ping me <a style="color:black" href="mailto:ridam258@gmail.com">here!</a></h5>
         </div>
     </div>
 </template>

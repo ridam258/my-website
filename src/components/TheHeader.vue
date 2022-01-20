@@ -13,7 +13,7 @@
                         <div class="options">
                             <h5><router-link @click="closeNav()" to="/home">Home</router-link></h5>
                             <h5 ><router-link @click="closeNav()" to="/about">About</router-link></h5>
-                            <h5><router-link @click="closeNav()" to="/home">Projects</router-link></h5>
+                            <h5><router-link @click="closeNav()" to="/project">Projects</router-link></h5>
                             <h5><router-link @click="closeNav()" to="/home">Contact</router-link></h5>
                             
                         </div>
