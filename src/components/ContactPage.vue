@@ -32,7 +32,7 @@
                     <h4><span>
                             Resume
                         </span></h4>
-                    <h6><a style="color:#988345" href="https://drive.google.com/file/d/1qdPuQUyCW97PlTTsHXl7c9hb9yea_R7M/view?usp=sharing">Download Pdf</a></h6>
+                    <h6><a style="color:#988345" href="../assets/resumeweb.pdf" download="">Download Pdf</a></h6>
                 </div>
             </div>
         </div>
