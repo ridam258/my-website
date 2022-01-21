@@ -19,7 +19,7 @@
                 <div class="description">
                     <h2>Project Details</h2>
                     <p>{{data.description}}</p>
-                    <button><a :href="data.link"></a>View Live</button>
+                    <button><a style="color:black; text-decoration:none" :href="data.link">View Live</a></button>
                 </div>
     </div>
 </template>
@@ -86,7 +86,7 @@ export default {
     .techs{
         font-size: 22px;
         font-weight: 600;
-        margin: 0 2rem;
+        margin: 10px 2rem;
         /* margin-left: 4rem; */
     }
     .inner{
@@ -162,7 +162,7 @@ export default {
         font-size: 32px;
     }
     .techs{
-        margin: 0 1rem;
+        margin: 5px 1rem;
         font-size: 18px;
     }
     .description p {
