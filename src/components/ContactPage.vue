@@ -12,13 +12,13 @@
                     <h4><span>
                             LINKEDIN
                         </span></h4>
-                    <h6>https://www.linkedin.com/in/ridam-jain-77366717a/</h6>
+                    <h6><a href="https://www.linkedin.com/in/ridam-jain-77366717a/">https://www.linkedin.com/in/ridam-jain-77366717a/</a></h6>
                 </div>
                 <div class="right">
                     <h4><span>
                             Github
                         </span></h4>
-                    <h6>https://github.com/ridam258</h6>
+                    <h6><a href="https://github.com/ridam258">https://github.com/ridam258</a></h6>
                 </div>
             </div>
             <div class="d-flex socialflex">
@@ -26,7 +26,7 @@
                     <h4><span>
                             Instagram
                         </span></h4>
-                    <h6>https://www.instagram.com/ridam._.jain/</h6>
+                    <h6><a href="https://www.instagram.com/ridam._.jain/">https://www.instagram.com/ridam._.jain/</a></h6>
                 </div>
                 <div class="right">
                     <h4><span>
