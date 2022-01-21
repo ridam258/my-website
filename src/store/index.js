@@ -63,7 +63,7 @@ export default createStore({
         date: "April 2021",
         description:
           "This is a terminal based game made with Java. In this game user chooses a deck of cards of players having different cost, health and damage rate then fights with a bot with help of those cards the game ends when any of user or computer looses all their health resulting the other's win. I made this for practicing different concepts of java classes and objects and how to implement them in making any project.  ",
-        link: "null.html",
+        link: "https://github.com/ridam258/Java-Terminal-Game",
       },
       {
         name: "Scissor Paper Rock Game",
