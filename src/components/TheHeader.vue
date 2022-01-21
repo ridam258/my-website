@@ -1,7 +1,7 @@
 <template>
     <div class="header d-flex justify-content-between align-items-center">
                 <!-- <img src="../assets/headerlogo1.jpg" alt=""> -->
-                <h4 class="m-0" :class="{'white':routeInfo,'black':!routeInfo}">Ridam <span style="padding:0;color:#988345">Jain</span></h4>
+                <router-link style="text-decoration:none" to="/home"><h4 class="m-0" :class="{'white':routeInfo,'black':!routeInfo}">Ridam <span style="padding:0;color:#988345">Jain</span></h4></router-link>
                 <div class="menu">
                     <span class="d-none d-sm-block" :class="{'white':routeInfo,'black':!routeInfo}" style="font-size:20px;cursor:pointer" @click="openNav()">Menu &#9776;</span>
                     <span class="d-block d-sm-none " :class="{'white':routeInfo,'black':!routeInfo}" style="font-size:20px;cursor:pointer" @click="openNav()">&#9776;</span>
