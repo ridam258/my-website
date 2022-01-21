@@ -4,66 +4,82 @@
         <h1>My Projects</h1>
         <div class="d-flex justify-content-around gridhead">
             <div class="inner">
-                <img style="width:100%" src="../assets/crypto.png" alt="">
-                <div class="outer"></div>
-                <div class="label">
-                    <h2>CrptoPrognostic</h2>
-                </div>
+                <router-link to="/projectdetails/0">
+                    <img style="width:100%" src="../assets/0.png" alt="">
+                    <div class="outer"></div>
+                    <div class="label">
+                        <h2>CrptoPrognostic</h2>
+                    </div>
+                </router-link>
             </div>
             <div class="inner">
-                <img style="width:100%" src="../assets/book.png" alt="">
-                <div class="outer"></div>
-                <div class="label">
-                    <h2>Bookbin</h2>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex justify-content-around gridhead">
-            <div class="inner">
-                <img style="width:100%" src="../assets/umesh.png" alt="">
-                <div class="outer"></div>
-                <div class="label">
-                    <h2>Client Portfolio</h2>
-                </div>
-            </div>
-            <div class="inner">
-                <img style="width:100%" src="../assets/mynotes.png" alt="">
-                <div class="outer"></div>
-                <div class="label">
-                    <h2>My Notes</h2>
-                </div>
+                <router-link to="/projectdetails/1">
+                    <img style="width:100%" src="../assets/1.png" alt="">
+                    <div class="outer"></div>
+                    <div class="label">
+                        <h2>Bookbin</h2>
+                    </div>
+                </router-link>
             </div>
         </div>
         <div class="d-flex justify-content-around gridhead">
             <div class="inner">
-                <img style="width:100%" src="../assets/apihub.png" alt="">
-                <div class="outer"></div>
-                <div class="label">
-                    <h2>Api Hub</h2>
-                </div>
+                <router-link to="/projectdetails/2">
+                    <img style="width:100%" src="../assets/2.png" alt="">
+                    <div class="outer"></div>
+                    <div class="label">
+                        <h2>Client Portfolio</h2>
+                    </div>
+                </router-link>
             </div>
             <div class="inner">
-                <img style="width:100%" src="../assets/terminalwar.png" alt="">
-                <div class="outer"></div>
-                <div class="label">
-                    <h2>Terminal War</h2>
-                </div>
+                <router-link to="/projectdetails/3">
+                    <img style="width:100%" src="../assets/3.png" alt="">
+                    <div class="outer"></div>
+                    <div class="label">
+                        <h2>My Notes</h2>
+                    </div>
+                </router-link>
+            </div>
+        </div>
+        <div class="d-flex justify-content-around gridhead">
+            <div class="inner">
+                <router-link to="/projectdetails/4">
+                    <img style="width:100%" src="../assets/4.png" alt="">
+                    <div class="outer"></div>
+                    <div class="label">
+                        <h2>Api Hub</h2>
+                    </div>
+                </router-link>
+            </div>
+            <div class="inner">
+                <router-link to="/projectdetails/5">
+                    <img style="width:100%" src="../assets/5.png" alt="">
+                    <div class="outer"></div>
+                    <div class="label">
+                        <h2>Terminal War</h2>
+                    </div>
+                </router-link>
             </div>
         </div>
         <div class="d-flex justify-content-around gridhead mb-0">
             <div class="inner">
-                <img style="width:100%" src="../assets/rock.png" alt="">
-                <div class="outer"></div>
-                <div class="label">
-                    <h2>Scissor Game</h2>
-                </div>
+                <router-link to="/projectdetails/6">
+                    <img style="width:100%" src="../assets/6.png" alt="">
+                    <div class="outer"></div>
+                    <div class="label">
+                        <h2>Scissor Game</h2>
+                    </div>
+                </router-link>
             </div>
             <div class="inner mb-0">
-                <img style="width:100%" src="../assets/unitconvertor.png" alt="">
-                <div class="outer"></div>
-                <div class="label">
-                    <h2>Unit Convertor</h2>
-                </div>
+                <router-link to="/projectdetails/7">
+                    <img style="width:100%" src="../assets/7.png" alt="">
+                    <div class="outer"></div>
+                    <div class="label">
+                        <h2>Unit Convertor</h2>
+                    </div>
+                </router-link>
             </div>
         </div>
         <div class="last d-flex justify-content-between" style="background-color:black;color:white">

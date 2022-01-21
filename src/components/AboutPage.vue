@@ -6,7 +6,7 @@
         </div>
         <div class="main-content">
             <h1>HEY THERE, I'M RIDAM - A DEVELOPER WHO LOVES PROGRAMMING.</h1>
-            <img src="../assets/yellowMinus.png" alt="">
+            <div class="dash"></div>
             <h5>Here is a special greeting for all the delightful viewers from me, Ridam Jain. I am a fledgling web developer who loves to design and make stunning websites. Having a handful of experience in working with Vue.js, I have bunched up my skillset which includes backend developing technologies as well.
                 <br><br> Along with that, I have enhanced my active knowledge of SQL, Cpp, and Java. With this all said, I am a vibrant coder who adores spending time in CPP. 
                 <br><br> Without missing any opportunity, I have managed many events as a lead. I always wish to have a platform where I can showcase my skills, give my 100%, and learn every day! Last but not least, a cup of tea is always welcome!</h5>
@@ -305,6 +305,12 @@ export default {
 }
 </script>
 <style scoped>
+    .dash{
+        height: 10px;
+        width: 50px;
+        background-color: #988345;
+        margin: 15px auto;
+    }
     .header{
         position: absolute;
         top: 0;
