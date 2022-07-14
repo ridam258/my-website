@@ -1,5 +1,15 @@
 <template>
   <the-header :routeInfo="false" class="header"></the-header>
+  <div
+    v-if="activeLoader != 0"
+    class="d-flex justify-content-center align-items-center loader"
+  >
+    <vue-loaders
+      name="ball-clip-rotate-multiple"
+      color="#988345"
+      scale="2"
+    ></vue-loaders>
+  </div>
   <div class="head">
     <h1>My Projects</h1>
     <div class="d-flex justify-content-around gridhead">
@@ -97,8 +107,18 @@
 <script>
 import TheHeader from "./TheHeader.vue";
 export default {
+  data() {
+    return {
+      activeLoader: 1,
+    };
+  },
   components: {
     TheHeader,
+  },
+  created() {
+    setTimeout(() => {
+      this.activeLoader = 0;
+    }, 1500);
   },
 };
 </script>
@@ -112,6 +132,11 @@ export default {
 .head {
   background-color: #efeeea;
   /* height: 100vh; */
+}
+.loader {
+  background-color: #efeeea;
+  padding-top: 5vh;
+  height: 90vh;
 }
 .head h1 {
   padding: 8rem 0 2rem;

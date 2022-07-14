@@ -2,7 +2,7 @@
   <the-header :routeInfo="false" class="header"></the-header>
   <div class="head">
     <div class="image d-flex justify-content-center">
-      <img src="../assets/ridam3.jpg" alt="" />
+      <img src="../assets/ridam33.jpg" alt="" />
     </div>
     <div class="main-content">
       <h1>HEY THERE, I'M RIDAM - A DEVELOPER WHO LOVES PROGRAMMING.</h1>
