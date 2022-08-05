@@ -39,7 +39,7 @@
           <h6>
             <a
               style="color: #988345"
-              href="https://drive.google.com/drive/u/0/my-drive"
+              href="https://drive.google.com/file/d/1ghVoiP3ts30Vbc7U0W-I7D7RxTOpRnuc/view?usp=sharing"
               >Download Pdf</a
             >
           </h6>
